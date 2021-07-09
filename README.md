@@ -1,1 +1,2 @@
 # Cleaned-PHP-Webshell-dataset
+This dataset is collected from Github sources. It incorporated a balaced number of PHP benign files and webshells. They are firstly cleaned using MD5 where two files with same MD5 gashes are considered duplicates. Afterwords, opcode sequences of the remaining files are generated, MD5 is applied to those sequences and remove duplicate files with the same opcode sequences. This may provide higher disrintive samples to be used for evaluating automatc webshell detector. The final dataset inorporates: 992 samples for each category. 
